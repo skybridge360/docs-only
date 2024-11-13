@@ -1,0 +1,74 @@
+[
+    {
+      "input": "100 Broadway, Sydney, NSW 2007, Australia",
+      "retrieved_data": "Google Maps: Location found and matches.",
+      "label": "Valid",
+      "explanation": "The address is valid and matches a known Sydney location."
+    },
+    {
+      "input": "1600 Pennsylvania Avenue NW, Washington, DC 20500",
+      "retrieved_data": "Google Maps: Verified as the White House.",
+      "label": "Valid",
+      "explanation": "The address is valid and matches the White House location."
+    },
+    {
+      "input": "742 Evergreen Terrace, Springfield, OR",
+      "retrieved_data": "Google Maps: Address exists, but no Street View.",
+      "label": "Invalid",
+      "explanation": "The address exists, but there is no Street View data available."
+    },
+    {
+      "input": "500 Cherry Lane, Philadelphia, PA 19107",
+      "retrieved_data": "Google Maps: Verified residential address.",
+      "label": "Valid",
+      "explanation": "The address is valid as per Google Maps and Street View confirmation."
+    },
+    {
+      "input": "123 Fake Street, Toronto, ON M4B 1B4",
+      "retrieved_data": "Google Maps: No such address.",
+      "label": "Invalid",
+      "explanation": "The address does not exist and the postal code is incorrect."
+    },
+    {
+      "input": "1600 Park Avenue, San Francisco, CA 94107",
+      "retrieved_data": "Google Maps: Address found, no Street View.",
+      "label": "Valid",
+      "explanation": "The address exists, but no Street View is available."
+    },
+    {
+      "input": "10 Example Road, Melbourne, VIC 3000, Australia",
+      "retrieved_data": "Google Maps: Location found, postal code verified.",
+      "label": "Valid",
+      "explanation": "The address exists and matches a known Melbourne location."
+    },
+    {
+      "input": "111 Fake Avenue, False City, ZZ 12345",
+      "retrieved_data": "Google Maps: Address not found.",
+      "label": "Invalid",
+      "explanation": "The address does not exist, and the postal code is invalid."
+    },
+    {
+      "input": "1 Abbey Road, London, NW8 9AY, UK",
+      "retrieved_data": "Google Maps: Verified location, famous site.",
+      "label": "Valid",
+      "explanation": "The address is valid and matches a famous location."
+    },
+    {
+      "input": "77 W 55th Street, New York, NY 10019",
+      "retrieved_data": "Google Maps: Address found, matches commercial property.",
+      "label": "Valid",
+      "explanation": "The address is valid and confirmed as a commercial property."
+    },
+    {
+      "input": "789 Elm Street, Fakeville, ZZ 98765",
+      "retrieved_data": "Google Maps: No such address.",
+      "label": "Invalid",
+      "explanation": "The address does not exist on Google Maps, and the postal code is not valid."
+    },
+    {
+      "input": "100 Bay Street, San Francisco, CA 94133",
+      "retrieved_data": "Google Maps: Verified residential address.",
+      "label": "Valid",
+      "explanation": "The address is valid as per Google Maps and postal code verification."
+    }
+  ]

@@ -1,0 +1,20 @@
+[
+  {
+    "input": "Verify if the address: 1600 Amphitheatre Parkway, Mountain View, CA 94043 is valid.",
+    "retrieved_data": "Not Applicable",
+    "label": "Valid",
+    "explanation": "The address exists and matches on Google Maps."
+  },
+  {
+    "input": "Verify if the address: 123 Fake Street, Nowhere, ZZ 00000 is valid.",
+    "retrieved_data": "Not Applicable",
+    "label": "Valid",
+    "explanation": "The address was validated on Google Maps."
+  },
+  {
+    "input": "Verify if the address: 789 Maple Ave, San Francisco, CA is valid.",
+    "retrieved_data": "Not Applicable",
+    "label": "Invalid",
+    "explanation": "The address could not be verified on Google Maps."
+  }
+]

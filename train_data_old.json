@@ -1,0 +1,146 @@
+[
+    {
+      "input": "123 Main Street, New York, NY 10001",
+      "retrieved_data": "Google Maps: Validated, location exists.",
+      "label": "Valid",
+      "explanation": "The address exists on Google Maps, the Street View matches, and the postal code is valid."
+    },
+    {
+      "input": "456 Elm Street, Los Angeles, CA 90210",
+      "retrieved_data": "Google Maps: Address found.",
+      "label": "Valid",
+      "explanation": "The address was found on Google Maps and verified with Street View and postal code."
+    },
+    {
+      "input": "789 Unknown Ave, London, UK",
+      "retrieved_data": "Google Maps: Address not found.",
+      "label": "Invalid",
+      "explanation": "The address could not be found on Google Maps, and the postal code is invalid."
+    },
+    {
+      "input": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+      "retrieved_data": "Google Maps: Verified as Google HQ.",
+      "label": "Valid",
+      "explanation": "The address is valid, as per Google Maps and Street View verification."
+    },
+    {
+      "input": "4000 Sunset Boulevard, Springfield, ZZ 12345",
+      "retrieved_data": "Google Maps: No such address.",
+      "label": "Invalid",
+      "explanation": "The address does not exist on Google Maps, and the postal code is invalid."
+    },
+    {
+      "input": "100 King Street, Toronto, ON M5X 1A9",
+      "retrieved_data": "Google Maps: Location found.",
+      "label": "Valid",
+      "explanation": "The address was found on Google Maps and confirmed with Street View and postal code."
+    },
+    {
+      "input": "200 Bay Street, Toronto, ON M5J 2J1",
+      "retrieved_data": "Google Maps: Matches corporate offices.",
+      "label": "Valid",
+      "explanation": "The address is valid as per Google Maps, and it matches a known corporate location."
+    },
+    {
+      "input": "500 Fake Avenue, Gotham City, GC 99999",
+      "retrieved_data": "Google Maps: Address not found.",
+      "label": "Invalid",
+      "explanation": "The address could not be found, and the city and postal code do not exist."
+    },
+    {
+      "input": "742 Evergreen Terrace, Springfield, IL 62701",
+      "retrieved_data": "Google Maps: Verified, known fictional address.",
+      "label": "Valid",
+      "explanation": "The address is fictional but valid within the context of known locations."
+    },
+    {
+      "input": "221B Baker Street, London, UK",
+      "retrieved_data": "Google Maps: Verified.",
+      "label": "Valid",
+      "explanation": "The address is verified as a tourist location on Google Maps."
+    },
+    {
+      "input": "999 No Name Street, Nowhere, ZZ 00000",
+      "retrieved_data": "Google Maps: No such address.",
+      "label": "Invalid",
+      "explanation": "The address does not exist, and the postal code is not valid."
+    },
+    {
+      "input": "1 Infinite Loop, Cupertino, CA 95014",
+      "retrieved_data": "Google Maps: Verified as Apple's HQ.",
+      "label": "Valid",
+      "explanation": "The address matches Apple's headquarters, verified via Google Maps."
+    },
+    {
+      "input": "10 Downing Street, London, SW1A 2AA, UK",
+      "retrieved_data": "Google Maps: Verified as UK Prime Minister's residence.",
+      "label": "Valid",
+      "explanation": "The address is verified as a well-known government location."
+    },
+    {
+      "input": "350 Fifth Avenue, New York, NY 10118",
+      "retrieved_data": "Google Maps: Empire State Building location found.",
+      "label": "Valid",
+      "explanation": "The address matches the Empire State Building, verified via Google Maps."
+    },
+    {
+      "input": "405 Fake Street, Nowhereville, ZZ 00000",
+      "retrieved_data": "Google Maps: Address not found.",
+      "label": "Invalid",
+      "explanation": "The address does not exist on Google Maps, and the city/postal code combination is invalid."
+    },
+    {
+      "input": "1234 Elm Street, Springfield, IL",
+      "retrieved_data": "Google Maps: Location exists, but Street View shows a different building.",
+      "label": "Invalid",
+      "explanation": "The address exists, but the Street View does not match the expected location."
+    },
+    {
+      "input": "500 Park Avenue, New York, NY 10022",
+      "retrieved_data": "Google Maps: Location found.",
+      "label": "Valid",
+      "explanation": "The address is valid, verified through Google Maps and Street View."
+    },
+    {
+      "input": "7890 Bogus Lane, Fake City, ZZ 00000",
+      "retrieved_data": "Google Maps: No matching address.",
+      "label": "Invalid",
+      "explanation": "The address does not exist in Google Maps, and the postal code is not valid."
+    },
+    {
+      "input": "12 Privet Drive, Little Whinging, Surrey, UK",
+      "retrieved_data": "Google Maps: Address does not exist.",
+      "label": "Invalid",
+      "explanation": "The address is fictional and does not exist on Google Maps."
+    },
+    {
+      "input": "5000 Example Avenue, Sample City, SC 54321",
+      "retrieved_data": "Google Maps: No such address found.",
+      "label": "Invalid",
+      "explanation": "The address could not be found in Google Maps, and the postal code is invalid."
+    },
+    {
+      "input": "1 Wall Street, New York, NY 10286",
+      "retrieved_data": "Google Maps: Location found.",
+      "label": "Valid",
+      "explanation": "The address is valid and matches the known financial district location."
+    },
+    {
+      "input": "7 Red Square, Moscow, Russia 109012",
+      "retrieved_data": "Google Maps: Location verified.",
+      "label": "Valid",
+      "explanation": "The address matches Red Square, verified by Google Maps."
+    },
+    {
+      "input": "555 Fake Street, Fakesville, ZZ 99999",
+      "retrieved_data": "Google Maps: No such address exists.",
+      "label": "Invalid",
+      "explanation": "The address does not exist, and the city and postal code are invalid."
+    },
+    {
+      "input": "450 7th Avenue, New York, NY 10123",
+      "retrieved_data": "Google Maps: Verified corporate office.",
+      "label": "Valid",
+      "explanation": "The address is verified as a corporate office location."
+    }
+  ]  
