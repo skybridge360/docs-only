@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps Street View</title>
+    <style>
+      /* Set the size for the map container */
+      #street-view {
+        height: 800px; /* Adjust this height as per your needs */
+        width: 100%;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX3FnFZGPCxSBgEKiUZ6eQI22a09MBoXQ"></script>
+    <script>
+      // Initialize and display the Street View panorama
+      function initializeStreetView() {
+	var lat = 51.5049135;
+	var lng = -0.0144159;
+
+        // Create a LatLng object
+        var location = { lat: lat, lng: lng };
+        
+        // Initialize the Street View panorama
+        var panorama = new google.maps.StreetViewPanorama(
+          document.getElementById('street-view'), {
+            position: location,        // Set the position to the passed lat-lng
+            pov: {                     // POV is the point of view
+              heading: 165,            // Initial camera heading (optional)
+              pitch: 0                 // Initial camera pitch (optional)
+            },
+            zoom: 1                    // Set initial zoom level (optional)
+          }
+        );
+      }
+
+      // Run the initialize function when the window loads
+      window.onload = initializeStreetView;
+    </script>
+  </head>
+  <body>
+    <h1>Draggable Street View</h1>
+    <!-- The container for the street view -->
+    <div id="street-view"></div>
+  </body>
+</html>

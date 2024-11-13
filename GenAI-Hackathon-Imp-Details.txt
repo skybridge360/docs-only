@@ -1,0 +1,11 @@
+GenAI Hackathon
+---------------
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources
+
+Available Models
+----------------
+ChatGPT 4o(preferred), 35-turbo and associated embedding models (e.g. text-embedding-3-large)
+
+Google Street View Static API
+-----------------------------
+https://maps.googleapis.com/maps/api/streetview?size=600x300&location=18.5543987,73.9580703&heading=360&fov=120&pitch=-0.76&radius=200&key=AIzaSyBX3FnFZGPCxSBgEKiUZ6eQI22a09MBoXQ
